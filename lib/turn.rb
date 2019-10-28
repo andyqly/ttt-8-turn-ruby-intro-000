@@ -12,7 +12,7 @@ def display_board(board)
 end
 
 def move(board, input, token = "X")
-  token = board[index]
+  token = board[input.to_i - 1]
 end
 
 def input_to_index(input)
