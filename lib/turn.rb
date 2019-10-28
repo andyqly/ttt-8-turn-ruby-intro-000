@@ -30,7 +30,7 @@ end
 end
 
 def move(input, character = "X")
-  @board[input] = character
+  @board[index] = character
 end
 
 def turn(board)
