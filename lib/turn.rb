@@ -30,7 +30,7 @@ else board[index] == "X" || board[index] == "O"
 end
 end
 
-def move(token = 'X')
+def move
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   board[index]
 end
