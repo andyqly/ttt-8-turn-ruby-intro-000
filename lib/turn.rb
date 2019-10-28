@@ -29,7 +29,7 @@ end
 end
 
 def move(board, index, character = "X")
-  character = "X" || character = "O"
+  character = board[index]
 end
 
 def turn(board)
