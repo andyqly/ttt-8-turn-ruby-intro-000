@@ -29,7 +29,7 @@ else board[index] == "X" || board[index] == "O"
 end
 end
 
-def move( input, token)
+def move(input, token = "X")
   board[index] = token
 end
 
