@@ -31,7 +31,7 @@ end
 end
 
 def move(input, character = 'X')
-  character = "#{board[index]}"
+  character = "#{board[input.to_i - 1]}"
 end
 
 def turn(board)
