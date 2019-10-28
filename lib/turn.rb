@@ -1,4 +1,4 @@
-@board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
 
@@ -31,7 +31,7 @@ end
 end
 
 def move(input, character = 'X')
-  @board[index] = character
+  board[index] = character
 end
 
 def turn(board)
