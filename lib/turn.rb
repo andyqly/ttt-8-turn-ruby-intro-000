@@ -30,8 +30,8 @@ else board[index] == "X" || board[index] == "O"
 end
 end
 
-def move(input, character = 'X')
-  character = "#{board[input.to_i - 1]}"
+def move(input, token = 'X')
+  token = "#{board[input.to_i - 1]}"
 end
 
 def turn(board)
