@@ -31,7 +31,7 @@ end
 end
 
 def move(input, character = 'X')
-  board[index] = character
+  @board[index] = character
 end
 
 def turn(board)
