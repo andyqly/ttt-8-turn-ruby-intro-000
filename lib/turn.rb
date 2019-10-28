@@ -11,6 +11,10 @@ def display_board(board)
 
 end
 
+def move(board, input, token)
+  token = board[index]
+end
+
 def input_to_index(input)
 index = (input.to_i - 1)
 end
@@ -30,9 +34,7 @@ else board[index] == "X" || board[index] == "O"
 end
 end
 
-def move(board, input, token)
-  token = board[index]
-end
+
 
 def turn(board)
     puts "Please enter 1-9:"
