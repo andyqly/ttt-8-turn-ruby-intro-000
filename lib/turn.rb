@@ -31,6 +31,7 @@ end
 end
 
 def move(input, token = 'X')
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   board[index]
 end
 
