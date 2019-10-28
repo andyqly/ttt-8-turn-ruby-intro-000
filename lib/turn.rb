@@ -31,6 +31,7 @@ end
 end
 
 def move(board, index, character)
+  character == board[index]
 end
 
 def turn(board)
