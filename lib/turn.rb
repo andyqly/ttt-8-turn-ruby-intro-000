@@ -30,8 +30,7 @@ else board[index] == "X" || board[index] == "O"
 end
 end
 
-def move
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def move(board, index, character = "X")
   board[index]
 end
 
