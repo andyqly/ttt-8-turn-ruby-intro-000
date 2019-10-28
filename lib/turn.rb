@@ -33,11 +33,8 @@ end
 
 def turn(board)
     puts "Please enter 1-9:"
-
-
 if input.between?(0, 8)
   return true
-
 else false
 end
 
