@@ -38,10 +38,9 @@ def turn(board)
 until valid_move?(input) == true
   puts "Try again geez, only 1-9"
   puts "Please enter 1-9:"
-  return true
-else false
+  input = gets.strip
 end
-
+move(input, )
 end
 
 
