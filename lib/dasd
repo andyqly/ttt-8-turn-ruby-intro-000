@@ -42,4 +42,3 @@ until valid_move?(input) == true
 end
 move(input, )
 end
-
