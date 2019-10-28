@@ -33,7 +33,11 @@ end
 
 def turn(board)
     puts "Please enter 1-9:"
-if input.between?(0, 8)
+    input = gets.strip
+
+until valid_move?(input) == true
+  puts "Try again geez, only 1-9"
+  puts "Please enter 1-9:"
   return true
 else false
 end
